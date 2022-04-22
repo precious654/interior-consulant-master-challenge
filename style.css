@@ -3,7 +3,157 @@
   padding: 0;
 }
 
+@media (min-width: 1028px) {
+
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+
+  .info{
+    padding-block-start: 200px;
+  }
+
+  .image{
+    padding-block-start: 30px;
+  }
+
+  .info h1{
+    font-size: 48px;
+  }
+
+  .nav-items{
+    margin-inline-end: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+
+  .container-2{
+    inline-size: 410px;
+  }
+
+  .info{
+    inline-size: 410px;
+  }
+
+  .image{
+    margin-block-start: 40px;
+  }
+
+  .open-slide{
+    display: none;
+  }
+
+}
+
+@media (max-width: 1027px) {
+
+  .nav-items{
+    display: none;
+  }
+
+}
+
+
+  .info{
+    margin: 40px 0px;
+  }
+
+  .container{
+    margin-inline-start: 20px;
+    margin-inline-end: 10px;
+  }
+
+  .container-2{
+    inline-size: 300px;
+  }
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover{
+  border-bottom: 2px #FFFFFF solid;
+  padding-block-end: 5px;
+}
+
 body{
   background-color: #181719;
   color: #FFFFFF;
+}
+
+img{
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.header{
+  margin-block-start: 1em;
+  margin-inline-start: 2em;
+}
+
+.header p{
+  border: 1px #FFFFFF solid;
+  inline-size: min-content;
+  padding: 5px;
+  font-size: 14px;
+  font-family: 'Crimson Pro', serif;
+}
+
+.info h1{
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  margin-block-end: 30px;
+}
+
+.info p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-block-end: 2em;
+}
+
+.image-2{
+  border-radius: 100%;
+}
+
+.container-2{
+  padding: 40px 10px;
+  background-color: blue;
+}
+
+.info-2{
+  display: flex;
+}
+
+.info-2-desc{
+  font-family: 'Montserrat', sans-serif;
+  padding-inline-start: 15px;
+  padding-block-start: 8px;
+  Line height: 17.07px;
+}
+
+.info-2-desc h3{
+  font-size: 14px;
+}
+
+.info-2-desc p{
+  font-size: 12px;
+}
+
+.info-3{
+  font-family: 'Lora', serif;
+  padding-block-start: 7px;
+}
+
+footer{
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }

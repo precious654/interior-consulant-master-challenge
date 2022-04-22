@@ -2,17 +2,79 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interior Consultant Master</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
   </head>
   <body>
 
     <header class="header">
-      <h3>THE INTERIOR</h3>
+      <div>
+        <p>THISINTERIOR</p>
+      </div>
+
+      <div>
+        <nav class="nav-bar">
+          <a href="#" class="nav-items">Home</a>
+          <a href="#" class="nav-items">Collection</a>
+          <a href="#" class="nav-items">About</a>
+          <a href="#" class="nav-items">Contact</a>
+
+          <span class="open-slide">
+            <a href="#">
+              <svg width="30" height="30">
+                <path d="M0,5 30,5" stroke="#fff" stroke-inline-size="5"/>
+                <path d="M0,14 30,14" stroke="#fff" stroke-inline-size="5"/>
+                <path d="M0,23 30,23" stroke="#fff" stroke-inline-size="5"/>
+              </svg>
+            </a>
+          </span>
+        </nav>
+
+        <div id="side-menu" class="side-nav">
+          <a href="#" class="btn-close">&times;</a>
+          <a href="#">Home</a>
+          <a href="#">Collection</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
     </header>
 
-    <nav class="nav-bar">
+    <section>
+      <div class="container">
+        <div class="info">
+          <h1>Modern interior</h1>
+          <p>
+            A full-service residential & commercial interior design and staging company offering professional organizing & eco services
+          </p>
+          <a href="#">Read more -></a>
+        </div>
+        <div class="image">
+          <img src="photo1.png" alt="an image"  width="821px" height="587px">
+        </div>
+      </div>
 
-    </nav>
+      <div class="container-2">
+        <div class="info-2">
+          <img class="image-2" src="photo2.png" alt="an image"  width="62" height="53">
+          <div class="info-2-desc">
+            <h5>Aliza Webber</h5>
+            <p>interior designer</p>
+          </div>
+        </div>
+        <div class="info-3">
+          <p>Designed in 2020 by Aliza Webber</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Created by PreciousCode-devchallenges.io</p>
+    </footer>
+
   </body>
 </html>
