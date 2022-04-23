@@ -13,7 +13,7 @@
 
     <header class="header">
       <div>
-        <p>THISINTERIOR</p>
+        <p>THIS INTERIOR</p>
       </div>
 
       <div>
@@ -24,7 +24,7 @@
           <a href="#" class="nav-items">Contact</a>
 
           <span class="open-slide">
-            <a href="#">
+            <a href="#" onClick="openSideMenu()">
               <svg width="30" height="30">
                 <path d="M0,5 30,5" stroke="#fff" stroke-inline-size="5"/>
                 <path d="M0,14 30,14" stroke="#fff" stroke-inline-size="5"/>
@@ -35,7 +35,7 @@
         </nav>
 
         <div id="side-menu" class="side-nav">
-          <a href="#" class="btn-close">&times;</a>
+          <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
           <a href="#">Home</a>
           <a href="#">Collection</a>
           <a href="#">About</a>
@@ -51,30 +51,44 @@
           <p>
             A full-service residential & commercial interior design and staging company offering professional organizing & eco services
           </p>
-          <a href="#">Read more -></a>
+          <a href="#">Read more <div class="arrow">&#8594;</div></a>
         </div>
         <div class="image">
           <img src="photo1.png" alt="an image"  width="821px" height="587px">
         </div>
       </div>
 
-      <div class="container-2">
-        <div class="info-2">
-          <img class="image-2" src="photo2.png" alt="an image"  width="62" height="53">
-          <div class="info-2-desc">
-            <h5>Aliza Webber</h5>
-            <p>interior designer</p>
+      <section class="section">
+        <div class="container-2">
+          <div class="info-2">
+            <img class="image-2" src="photo2.png" alt="an image"  width="62" height="53">
+            <div class="info-2-desc">
+              <h5>Aliza Webber</h5>
+              <p>interior designer</p>
+            </div>
+          </div>
+          <div class="info-3">
+            <p>Designed in 2020 by Aliza Webber</p>
           </div>
         </div>
-        <div class="info-3">
-          <p>Designed in 2020 by Aliza Webber</p>
-        </div>
-      </div>
+      </section>
     </section>
 
     <footer>
       <p>Created by PreciousCode-devchallenges.io</p>
     </footer>
+
+    <script type="text/javascript">
+
+    function openSideMenu() {
+      document.getElementById("side-menu").style.width = "100%";
+    }
+
+    function closeSideMenu() {
+      document.getElementById("side-menu").style.width = "0";
+    }
+
+    </script>
 
   </body>
 </html>

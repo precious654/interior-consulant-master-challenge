@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-@media (min-width: 1028px) {
+@media (min-width: 1200px) {
 
   .container{
     display: grid;
@@ -31,6 +31,7 @@
 
   .container-2{
     inline-size: 410px;
+    background-color: blue;
   }
 
   .info{
@@ -47,26 +48,64 @@
 
 }
 
-@media (max-width: 1027px) {
+@media (max-width: 1199.0px) {
 
   .nav-items{
     display: none;
   }
 
+  .open-slide{
+    padding-inline-end: 20px;
+  }
+
+  .image{
+    padding-inline-end: 10px;
+  }
+
+  .container-2{
+    position: absolute;
+    right: 27px;
+    top: 580px;
+    padding: 20px 30px;
+    inline-size: 230px;
+    background-color: #181719;
+  }
+
+  footer{
+    margin-block-start: 125px;
+  }
+
 }
 
+.side-nav{
+  block-size: 100%;
+  inline-size: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #181719;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-block-start: 90px;
+  transition: 0.5s;
+}
+
+.side-nav a{
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  text-align: center;
+  margin-block-end: 50px;
+}
 
   .info{
     margin: 40px 0px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .container{
     margin-inline-start: 20px;
     margin-inline-end: 10px;
-  }
-
-  .container-2{
-    inline-size: 300px;
   }
 
 header{
@@ -101,7 +140,6 @@ img{
 
 .header p{
   border: 1px #FFFFFF solid;
-  inline-size: min-content;
   padding: 5px;
   font-size: 14px;
   font-family: 'Crimson Pro', serif;
@@ -119,13 +157,13 @@ img{
   margin-block-end: 2em;
 }
 
-.image-2{
-  border-radius: 100%;
+.arrow{
+  display: inline;
+  padding-inline-start: 6px;
 }
 
-.container-2{
-  padding: 40px 10px;
-  background-color: blue;
+.image-2{
+  border-radius: 100%;
 }
 
 .info-2{
