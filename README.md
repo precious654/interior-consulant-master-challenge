@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/GlQr681xrRm9nYWjgIZ1">
       Solution
     </a>
     <span> | </span>
@@ -42,10 +42,10 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
+- Where can I see your demo? 
 - What was your experience? It was a nice experience, I really learnt a lot.
 - What have you learned/improved? I learnt about SVG tag and how to use them, I improved my positioning skills, still working on making it better though.
-- Your wisdom? :) Read documents, seek help when you feel stuck, review codes and always work to improve, You will surprised at how little you know.
+- Your wisdom? :) Read documents, seek help when you feel stuck, review codes and always work to improve, You will be surprised at how little you know.
 
 ### Built With
 
@@ -71,6 +71,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
 - GitHub [@precious654](https://github.com/precious654)
 - Twitter [@sacredshott](https://twitter.com/sacredshott)
