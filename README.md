@@ -36,9 +36,9 @@
 
 ## Overview
 
-![screenshot](https://desktop.png)
-![screenshot](https://mobile1.jpg)
-![screenshot](https://mobile2.jpg)
+![screenshot](desktop.png)
+![screenshot](mobile1.jpg)
+![screenshot](mobile2.jpg)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
